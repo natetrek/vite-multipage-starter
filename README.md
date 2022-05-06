@@ -1,7 +1,27 @@
-# Vue 3 + Vite
+## Multipage Brochure Website Template
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Minimal starter template for a multipage brochure website using Vite, Vue 3, and Tailwind CSS
 
-## Recommended IDE Setup
+### Installation and setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Run the project for local dev -- this will run Vite and start a hot-reloading server at `localhost:3000`
+
+```bash
+npm run dev
+```
+
+3. Build the app for deployment & serve preview at `localhost:3000`
+
+```bash
+# Run the build command (vite build)
+npm run build
+
+# Preview the deployment locally using Vite as a server (vite preview)
+npm run preview
+```
